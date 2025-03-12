@@ -1,109 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Duvvuru Pravanya Sree</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-<!-- Navigation Bar -->
-<nav>
-    <a href="#hero">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<!-- Hero Section -->
-<section id="hero" class="hero">
-    <div class="hero-content">
-        <h1>Crafting Code, Building Dreams 🚀</h1>
-        <p>Turning Ideas into Reality with Passion and Precision.</p>
-        <a href="#about" class="btn">Discover More</a>
-    </div>
-</section>
-
-<!-- About Section -->
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <img src="images/profile.png" alt="Profile Picture" />
-    <p>
-        Hi, I'm a passionate developer with a love for coding and creative problem-solving. 
-        I specialize in building innovative web applications and delivering impactful user experiences.
-    </p>
-</section>
-
-<!-- Projects Section -->
-<section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-        <div class="project-card">
-            <img src="images/project1.png" alt="Project 1" />
-            <h3>Blockchain Platform</h3>
-            <p>A secure platform for renewable energy transactions using blockchain technology.</p>
+    <!-- Hero Section -->
+    <section id="home" class="section">
+        <div class="hero">
+            <h1>Innovating Through Code and Creativity 🚀</h1>
+            <p>Exploring the realms of technology and innovation.</p>
+            <a href="#about" class="btn">Discover More</a>
         </div>
-        <div class="project-card">
-            <img src="images/project2.png" alt="Project 2" />
-            <h3>Electricity Monitoring App</h3>
-            <p>Real-time tracking of household electricity usage with insightful patterns.</p>
-        </div>
-        <div class="project-card">
-            <img src="images/project3.png" alt="Project 3" />
-            <h3>Guidance Platform</h3>
-            <p>Helping students choose the right graduation path based on their interests and marks.</p>
-        </div>
-    </div>
-</section>
+        <div class="scroll-down">↓ Scroll Down</div>
+    </section>
 
-<!-- Skills Section -->
-<section id="skills" class="section">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <div class="skill">
-            <h3>Java</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 90%;"></div>
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h1>About Me 💡</h1>
+            <p>👋 Hi, I'm Duvvuru Pravanya Sree, a passionate developer with a knack for crafting innovative solutions. From building interactive web experiences to working on complex projects like blockchain-based platforms and real-time data analysis, I love turning ideas into reality.</p>
+            <a href="#projects" class="btn">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h1>Technical Projects ⚙️</h1>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1829/1829541.png" alt="Blockchain Project">
+                    <h2>Blockchain-Based Energy Platform</h2>
+                    <p>Developed a secure platform for renewable energy transactions using blockchain.</p>
+                    <p>Empowered rural communities by promoting sustainable energy use.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/4207/4207233.png" alt="Job vs Passion">
+                    <h2>Job vs Passion</h2>
+                    <p>Analysed the satisfactory dependence on career choice.</p>
+                    <p><strong>Duration:</strong> 48 hours | <strong>Team Size:</strong> 4 | <strong>Role:</strong> Analyser</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3081/3081634.png" alt="Envicate">
+                    <h2>Envicate</h2>
+                    <p>Made an easy way for kids to learn about the environment.</p>
+                    <p><strong>Duration:</strong> 60 hours | <strong>Team Size:</strong> 7 | <strong>Role:</strong> Backend Developer</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/726/726773.png" alt="Tetris Reinvented">
+                    <h2>Tetris Reinvented</h2>
+                    <p>Developed a modern version of Tetris with enhanced graphics and improved user experience using JavaFX.</p>
+                    <p><strong>Duration:</strong> 50 hours | <strong>Team Size:</strong> 2 | <strong>Role:</strong> Lead Developer</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2936/2936700.png" alt="Student Guidance">
+                    <h2>Student Guidance Web App</h2>
+                    <p>Built a platform to suggest graduation options based on student interests and scores.</p>
+                    <p>Ensured smooth navigation and clear user experience.</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/854/854894.png" alt="Air Pollution">
+                    <h2>Air Pollution Case Study</h2>
+                    <p>Conducted a detailed analysis of air pollution levels at LICET.</p>
+                    <p>Proposed actionable solutions to reduce environmental impact.</p>
+                </div>
             </div>
         </div>
-        <div class="skill">
-            <h3>Python</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 85%;"></div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h1>Technical Skills 💻</h1>
+            <div class="skills-grid">
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="progress-bar"><div class="progress" style="width: 90%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="progress-bar"><div class="progress" style="width: 85%"></div></div>
+                </div>
+                <div class="skill">
+                    <span>C</span>
+                    <div class="progress-bar"><div class="progress" style="width: 80%"></div></div>
+                </div>
             </div>
         </div>
-        <div class="skill">
-            <h3>JavaScript</h3>
-            <div class="progress-bar">
-                <div class="progress" style="width: 80%;"></div>
-            </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h1>Experience 💼</h1>
+            <p><strong>Treasurer, MAD Club</strong> – Managed budgets and organized events like ideathons, workshops, and guest lectures.</p>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Experience Section -->
-<section id="experience" class="section">
-    <h2>Experience</h2>
-    <div class="experience-stickers">
-        <img src="images/coding-sticker.png" alt="Coding Sticker" class="experience-sticker" />
-        <img src="images/teaching-sticker.png" alt="Teaching Sticker" class="experience-sticker" />
-        <img src="images/teamwork-sticker.png" alt="Teamwork Sticker" class="experience-sticker" />
-        <img src="images/leadership-sticker.png" alt="Leadership Sticker" class="experience-sticker" />
-    </div>
-    <p>Worked on multiple innovative projects involving web development, blockchain, and data analysis.</p>
-</section>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h1>Let's Connect! 📬</h1>
+            <p>Email: <a href="mailto:pravanyasreeduvvuru@gmail.com">pravanyasreeduvvuru@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/duvvuru/" target="_blank">linkedin.com/in/duvvuru</a></p>
+            <p>GitHub: <a href="https://github.com/DUVVURU-PRAVANYA" target="_blank">github.com/duvvurupravanya</a></p>
+        </div>
+    </section>
 
-<!-- Contact Section -->
-<section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <img src="images/contact.png" alt="Contact" />
-    <p>Feel free to reach out!</p>
-    <a href="mailto:example@gmail.com">example@gmail.com</a>
-</section>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

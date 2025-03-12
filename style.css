@@ -161,17 +161,24 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
-/* Stickers for Experience */
-.experience-sticker {
-    width: 50px;
-    margin: 0.5rem;
-}
-
-.experience-stickers {
+/* URLs for Experience */
+.experience-urls {
     display: flex;
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+}
+
+.experience-url {
+    color: #4CAF50;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.experience-url:hover {
+    color: #388E3C;
+    text-decoration: underline;
 }
 
 /* Contact Section */
